@@ -1,1 +1,3 @@
-# COVID19-chest-X-ray
+In this particular project, we discuss the application of POCUS (Point Of Care UltraSonography) in detection of COVID-19.
+
+We carry out two major functions. First, we gather a lung ultrasound (POCUS) dataset consisting of about 710 images (amongst which the training set comprises 519 images (240 representing COVID positive and 279 representing healthy lungs) and the testing dataset comprises 191 images (84 representing COVID positive and 107 representing healthy lungs) from 25-30 sampled videos. Secondly, we train 3 deep convolutional neural networks namely VGG-16, MobileNet V2 and Nasnet, on this 2-class dataset and achieve an accuracy of 95.2%, 12.5% and 63.8% respectively.
